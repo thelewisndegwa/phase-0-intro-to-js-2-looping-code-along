@@ -7,14 +7,14 @@ function countDown(num) {
   countDown(10);
 
 
-  function writeCards()
+ 
 
 
-  let names = ["Ada", "Brendan", "Ali"];
-function writeCards(names, birthday) {
-  for (let i = 0; i < names.length; i++) {
-    console.log(`Thank you, ${names[i]}, for the wonderful ${birthday} gift!`);
+const name = ["Ada", "Brendan", "Ali"]
+function writeCards(name, birthday) {
+  for (let i = 0; i < name.length; i++) {
+    console.log(`Thank you, ${name[i]}, for the wonderful birthday gift!`)
   }
-  return names;
 }
-writeCards();
+  
+writeCards(name)
